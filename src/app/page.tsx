@@ -13,7 +13,7 @@ const breeds = [
   },
   {
     img: "/images/american-shorthair.jpg",
-    name: "美短",
+    name: "美國短毛貓",
     desc: "經典的虎斑花紋配上圓潤身形，個性開朗好相處，很適合新手飼養。",
     paw: "/images/paw-american-shorthair.jpg",
     pawText: "睡到一半伸出來的小白手，還有粉紅色的肉球。",
