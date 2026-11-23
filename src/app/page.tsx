@@ -2,6 +2,7 @@ import Image from "next/image";
 import CatBurstButton from "@/components/CatBurstButton";
 import Parallax from "@/components/Parallax";
 import BreedPhoto from "@/components/BreedPhoto";
+import LuckyDrawButton from "@/components/LuckyDrawButton";
 
 const breeds = [
   {
@@ -105,7 +106,10 @@ export default function Home() {
               軟綿綿的肉球、圓滾滾的眼睛，還有聽了就融化的呼嚕聲。
               一起來認識這些可愛的毛孩吧！
             </p>
-            <CatBurstButton />
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-3 md:justify-start">
+              <CatBurstButton />
+              <LuckyDrawButton />
+            </div>
           </Parallax>
           <div className="relative mx-auto w-full max-w-[17rem] sm:max-w-sm">
             <Parallax speed={0.1} className="absolute -inset-3" innerClassName="h-full w-full">

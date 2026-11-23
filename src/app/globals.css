@@ -72,6 +72,28 @@
   }
 }
 
+/* 抽獎轉動中的圖案：上下彈跳 */
+@keyframes lucky-roll {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-6px) scale(1.1);
+  }
+}
+
+.lucky-roll {
+  display: inline-block;
+  animation: lucky-roll 0.18s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lucky-roll {
+    animation: none;
+  }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

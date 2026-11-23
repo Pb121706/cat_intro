@@ -74,7 +74,7 @@ export default function CatBurstButton() {
       <button
         type="button"
         onClick={handleClick}
-        className="mt-8 inline-block cursor-pointer rounded-full bg-pink-400 px-8 py-3 font-semibold text-white shadow-md shadow-pink-200 transition hover:-translate-y-0.5 hover:bg-pink-500 focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-pink-300 active:scale-95"
+        className="inline-block cursor-pointer rounded-full bg-pink-400 px-8 py-3 font-semibold text-white shadow-md shadow-pink-200 transition hover:-translate-y-0.5 hover:bg-pink-500 focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-pink-300 active:scale-95"
       >
         開始認識貓咪 🐾
       </button>
