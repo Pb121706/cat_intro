@@ -102,8 +102,7 @@ export default function Home() {
               毛茸茸小山竹<br />聚集地
             </h1>
             <p className="mx-auto mt-4 max-w-md text-base leading-8 text-rose-700 sm:text-lg md:mx-0">
-              軟綿綿的肉球、圓滾滾的眼睛，還有聽了就融化的呼嚕聲。
-              一起來認識這些可愛的毛孩吧！
+              天冷抱貓夠暖活
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3 md:justify-start">
               <CatBurstButton />
