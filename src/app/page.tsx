@@ -3,6 +3,7 @@ import CatBurstButton from "@/components/CatBurstButton";
 import Parallax from "@/components/Parallax";
 import BreedPhoto from "@/components/BreedPhoto";
 import LuckyDrawButton from "@/components/LuckyDrawButton";
+import WelcomeGreeting from "@/components/WelcomeGreeting";
 
 const breeds = [
   {
@@ -96,9 +97,7 @@ export default function Home() {
 
         <section className="relative mx-auto grid max-w-5xl items-center gap-10 px-4 pb-14 pt-8 sm:px-6 sm:pb-20 sm:pt-12 md:grid-cols-2 lg:gap-16">
           <Parallax speed={0.12} className="text-center md:text-left">
-            <p className="mb-3 inline-block rounded-full bg-pink-100 px-4 py-1 text-sm font-medium text-pink-600">
-              歡迎光臨 ฅ^•ﻌ•^ฅ
-            </p>
+            <WelcomeGreeting />
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-pink-600 sm:text-5xl lg:text-6xl">
               毛茸茸小山竹<br />聚集地
             </h1>
