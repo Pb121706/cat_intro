@@ -9,6 +9,7 @@ const links = [
   { href: "/#facts", label: "趣味小知識" },
   { href: "/#tips", label: "照顧小撇步" },
   { href: "/blog", label: "部落格" },
+  { href: "/game", label: "小遊戲" },
 ];
 
 export default function Header() {
