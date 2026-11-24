@@ -18,7 +18,7 @@ function makeCode() {
   return `MEOW90-${s}`;
 }
 
-/** 抽獎按鈕：點開彈窗，10% 機會抽中芒貓肉泥 9 折優惠券 */
+/** 抽獎按鈕：點開彈窗，10% 機會抽中貓肉泥 9 折優惠券 */
 export default function LuckyDrawButton() {
   const dialogRef = useRef<HTMLDialogElement>(null);
   const [phase, setPhase] = useState<Phase>("idle");
@@ -96,7 +96,7 @@ export default function LuckyDrawButton() {
           </h2>
           <p className="mt-1 text-sm leading-6 text-rose-700">
             有 10% 的機會抽中<br />
-            <strong>芒貓肉泥 9 折優惠券</strong>！
+            <strong>貓肉泥 9 折優惠券</strong>！
           </p>
 
           {/* 抽獎轉盤 */}
@@ -134,7 +134,7 @@ export default function LuckyDrawButton() {
               <div>
                 <p className="text-lg font-bold text-pink-600">恭喜中獎！</p>
                 <div className="mt-3 rounded-2xl border-2 border-dashed border-amber-300 bg-amber-50 px-4 py-3">
-                  <p className="text-sm font-semibold text-amber-700">芒貓肉泥 · 9 折優惠券</p>
+                  <p className="text-sm font-semibold text-amber-700">貓肉泥 · 9 折優惠券</p>
                   <p className="mt-1 select-all font-mono text-xl font-bold tracking-wider text-rose-900">{code}</p>
                 </div>
                 <p className="mt-2 text-xs text-rose-600">請截圖或複製優惠碼保存，關閉視窗後就看不到囉！</p>
